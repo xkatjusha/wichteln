@@ -1,0 +1,19 @@
+<div>
+    <table>
+        <tr>
+            <td id="fn">First Name</td>
+            <td id="ln">Last Name</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><input type="text" name="firstname" placeholder="First Name" [(ngModel)]="firstname">
+            </td>
+            <td><input type="text" name="lastname" placeholder="Last Name" [(ngModel)]="lastname"></td>
+            <td><button id="add" (click)="add()">+</button></td>
+        </tr>
+        <tr>
+            <app-personslist (delete)="delete($event)" [entry]="names" *ngFor="let names of secretsanta.person">
+            </app-personslist>
+        </tr>
+    </table>
+</div>

@@ -1,0 +1,20 @@
+div{
+    background-color:FloralWhite;
+    height: 1200px;
+    width: auto;
+    font-family: Arial;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+th{
+    font-size: 40px;
+    text-decoration: underline solid;
+}
+
+body{
+    background-image: url("~src/assets/images/Tannenbaum.jpg");
+    background-size: auto;
+}
+

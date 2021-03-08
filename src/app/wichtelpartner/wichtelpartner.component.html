@@ -1,0 +1,7 @@
+<h1>Serect Santa Partner Draw</h1>
+<button id="ssd" (click)="ssd()">Secret Santa Draw</button>
+<button id="delete" (click)="delete()">Delete the List</button>
+<br>
+<div *ngFor="let secretpartner of draw">
+    <output>{{secretpartner}}</output>
+</div>
